@@ -5,7 +5,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
-  background-image: linear-gradient(90deg, rgb(189, 195, 199) 0.00%,rgb(0, 128, 255) 39.00%);
+  background-color: #000000;
   grid-template-rows: repeat(2, 1fr);
 }
  
@@ -16,11 +16,10 @@
   flex-wrap: wrap;
   align-items: center;
   aspect-ratio: auto;
-  border-color: #053e08;
+  border-color: #00a5ff;
   border-width: 10px;
   border-radius: var(--dl-layout-radius-buttonradius);
   justify-content: center;
-  background-image: linear-gradient(90deg, rgb(63, 255, 91) 17.00%,rgb(100, 179, 244) 92.00%);
 }
  
 .home-container12 {
@@ -34,10 +33,21 @@
   justify-content: center;
 }
  
+.home-text10 {
+  color: #ffffff;
+}
+ 
+.home-text11 {
+  color: #ffffff;
+}
+ 
 .home-image1 {
   width: 123px;
   height: 121px;
   object-fit: cover;
+  border-color: #00a5ff;
+  border-width: 5px;
+  border-radius: var(--dl-layout-radius-round);
 }
  
 .home-container13 {
@@ -72,12 +82,11 @@
   align-self: center;
   align-items: center;
   padding-top: var(--dl-layout-space-oneandhalfunits);
-  border-color: #0a1e5d;
+  border-color: #00a5ff;
   border-width: 10px;
   border-radius: var(--dl-layout-radius-buttonradius);
   flex-direction: column;
   justify-content: flex-start;
-  background-image: linear-gradient(90deg, rgb(0, 255, 16) 0.00%,rgb(100, 179, 244) 77.00%);
 }
  
 .home-container15 {
@@ -92,6 +101,7 @@
 }
  
 .home-text14 {
+  color: #ffffff;
   width: 289px;
   height: 40px;
   text-align: center;
@@ -128,11 +138,16 @@
 }
  
 .home-text15 {
+  color: #ffffff;
   transition: 0.3s;
   text-decoration: none;
 }
  
 .home-text15:hover {
+  color: #ffffff;
+}
+ 
+.home-text16 {
   color: #ffffff;
 }
  
@@ -160,6 +175,7 @@
 }
  
 .home-text17 {
+  color: #ffffff;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -174,6 +190,7 @@
 }
  
 .home-text18 {
+  color: #ffffff;
   text-align: center;
 }
  
@@ -200,6 +217,7 @@
 }
  
 .home-text19 {
+  color: #ffffff;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -214,6 +232,7 @@
 }
  
 .home-text20 {
+  color: #ffffff;
   text-align: center;
 }
  
@@ -240,6 +259,7 @@
 }
  
 .home-text21 {
+  color: #ffffff;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -254,6 +274,7 @@
 }
  
 .home-text22 {
+  color: #ffffff;
   text-align: center;
 }
  
@@ -281,6 +302,7 @@
 }
  
 .home-text23 {
+  color: #ffffff;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -295,6 +317,7 @@
 }
  
 .home-text24 {
+  color: #ffffff;
   text-align: center;
 }
  
